@@ -316,10 +316,12 @@ footer h3 span {
     z-index: 1;
     background-color: var(--border-color);
     overflow: hidden;
+    
   }
 
   .ul-list.show {
     display: flex;
+    padding: 20px;
   }
 
   .ul-list li {
@@ -342,7 +344,6 @@ footer h3 span {
 @media (max-width: 900px){
 
   .container {
-    margin: 20px;
     padding-top: 50px;
   }
 
