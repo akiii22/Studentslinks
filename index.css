@@ -343,7 +343,43 @@ footer h3 span {
     display: block;
     left: -25px;
   }
+}
 
+@media(max-width: 500px){
+  .logo {
+    display: flex;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .toggle img {
+    margin-right: 50px;
+  }
+
+  .ul-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .ul-list.show {
+    padding: 10px;
+  }
+
+  #toggleDarkMode {
+    margin-left: 0;
+    margin-right: 25px;
+  }
+
+  .ul-list li {
+    margin: 10px 0;
+  }
 }
 
 @media (max-width: 900px){
