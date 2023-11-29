@@ -359,8 +359,20 @@ footer h3 span {
   }
 
   .ul-list {
-    display: flex;
-    flex-direction: column;
+
+      display: none;
+      margin: 20px 0; 
+      position: fixed;
+      top: 60px;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      text-align: center;
+      z-index: 1;
+      background-color: var(--border-color);
+      overflow: hidden;
+      
+    
   }
 
   ul {
@@ -377,9 +389,11 @@ footer h3 span {
     margin-right: 25px;
   }
 
+
   .ul-list li {
     margin: 10px 0;
   }
+
 }
 
 @media (max-width: 900px){
